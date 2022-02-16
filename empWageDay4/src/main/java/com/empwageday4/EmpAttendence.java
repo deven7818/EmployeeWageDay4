@@ -2,7 +2,7 @@ package com.empwageday4;
 
 import java.util.Random;
 
-public class EmpWageDay4 {
+public class EmpAttendence {
 
 	public static int Attendence() {
 		Random random = new Random();
@@ -11,6 +11,8 @@ public class EmpWageDay4 {
 	}
 	
 	public static void main(String[] args) {
+		
+		System.out.println("Welcome to Employee Wage Computation");
 		
 		int check = Attendence();
 		int isPresent = 1 , isAbsent = 2;
